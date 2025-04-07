@@ -33,7 +33,6 @@ export class Preloader extends Scene
         this.load.setPath('assets');
 
         // Load card assets
-        this.load.image('card-back', 'card-back.png');
         this.load.spritesheet('cards', 'cards.png', {
             frameWidth: 140,
             frameHeight: 190

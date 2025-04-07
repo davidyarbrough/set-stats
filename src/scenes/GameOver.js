@@ -12,7 +12,6 @@ export class GameOver extends Scene {
     create() {
         // Use same background image as Game scene
         this.add.image(512, 384, 'background').setAlpha(0.5);
-        
         const style = { fontFamily: 'Arial', fontSize: 24, color: '#ffffff' };
         const titleStyle = { 
             fontFamily: 'Arial Black', 
